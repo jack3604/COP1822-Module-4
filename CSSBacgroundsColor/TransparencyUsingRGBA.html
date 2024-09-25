@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Transparency Using RGBA()</title>
+        <style>
+            div {
+                background: rgb(100,222,2);
+            }
+            div.first {
+                background: rgba(100,222,2, 0.1);
+            }
+            div.second {
+                background: rgba(100,222,2, 0.3);
+            }
+            div.third {
+                background: rgba(100,222,2, 0.6);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Transparency Examples With RGB() and RBGA()</h1>
+        <h1>Results with opacity: </h1>
+        <div style="opacity: 0.1;">
+            <h1>10% opacity</h1>
+        </div>
+        <div style="opacity: 0.3;">
+            <h1>30% opacity</h1>
+        </div>
+        <div style="opacity: 0.6;">
+            <h1>60% opacity</h1>
+        </div>
+
+        <h1>Exmaple of Opacity</h1>
+        <div class="first"><h1>This is opacity of 0.1</h1></div>
+        <div class="second"><h1>This is opacity of 0.3</h1></div>
+        <div class="third"><h1>This is opacity of 0.6</h1></div>
+        <div><h1>This is opacity of 1.0</h1></div>
+    </body>
+</html>
